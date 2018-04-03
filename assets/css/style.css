@@ -142,7 +142,7 @@ span {
     color: #000;
 }
 .colorG {
-    #777
+    color: #777;
 }
 .title {
     text-transform: uppercase;
@@ -977,6 +977,8 @@ a.navbar-brand {
 .service-text {
     width: 75%;
     float: right;
+    height: 160px;
+    text-align: left;
 }
 .service-icon i {
     font-size: 40px;
@@ -1786,3 +1788,14 @@ a.ui-button:active,
 	color:#fff;
 }
 
+
+
+
+/* custom styles */
+
+.programCont {
+    text-align: center;
+    float: none;
+    margin: auto;
+    clear: both;
+}
