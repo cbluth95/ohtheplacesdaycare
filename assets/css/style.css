@@ -890,7 +890,7 @@ a.navbar-brand {
 }
 
 .slider-text h1 {
-    padding-top: 35%;
+    padding-top: 25%;
     font-size: 70px;
 	line-height:1.2em;
 }
@@ -1798,4 +1798,9 @@ a.ui-button:active,
     float: none;
     margin: auto;
     clear: both;
+}
+
+#gallery {
+    /* background-image: url(../img/background/bg-gallery.png); */
+
 }
