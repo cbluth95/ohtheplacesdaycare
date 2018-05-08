@@ -6,6 +6,15 @@
 
 @import url('https://fonts.googleapis.com/css?family=Cabin+Sketch|Open+Sans:300,400,600,700,800');
 
+@font-face {
+    font-family: 'grinchedregular';
+    src: url('../fonts/grinchedregular-webfont.woff2') format('woff2'),
+         url('../fonts/grinchedregular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 /*
 ==========================
 2. Body
@@ -81,7 +90,7 @@ h6 {
 .itg-button-simple,
 .timer span,
 .thecube h4 {
-    font-family: 'Cabin Sketch', cursive;
+    font-family: 'grinchedregular';
     word-spacing: 2px;
 	font-weight:400;
 }
@@ -891,7 +900,7 @@ a.navbar-brand {
 
 .slider-text h1 {
     padding-top: 25%;
-    font-size: 70px;
+    font-size: 80px;
 	line-height:1.2em;
 }
 .slider-image:before {
