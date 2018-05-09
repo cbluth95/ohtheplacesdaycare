@@ -65,7 +65,7 @@ a:visited {
 p,
 em {
     font-family: 'Open Sans', sans-serif;
-    font-size: 15px;
+    font-size: 1em;
     line-height: 24px;
     color: inherit;
 }
@@ -916,9 +916,10 @@ a.navbar-brand {
 }
 .slider-text h2 {
     font-weight: 500;
-    color: #fff;
-    font-size: 50px;
-	line-height:1.6em;
+    color: #d8d900;
+    font-size: 3em;
+    line-height: 1.6em;
+    font-family: 'grinchedregular';
 }
 .slider-text p {
     font-size: 15px;
@@ -936,7 +937,7 @@ a.navbar-brand {
     float: left;
 }
 .theme-heading i {
-    font-size: 2em;
+    font-size: 3em;
     line-height: 1.4em;
 }
 .theme-heading p {
@@ -1602,7 +1603,7 @@ ul.meta-link li {
 .ui-button:active .ui-icon,
 .ui-icon,
 .ui-widget-content .ui-icon {
-    #display: none;
+    display: none;
 }
 .ui-corner-all,
 .ui-corner-top,
