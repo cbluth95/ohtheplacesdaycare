@@ -5,6 +5,7 @@
 */
 
 @import url('https://fonts.googleapis.com/css?family=Cabin+Sketch|Open+Sans:300,400,600,700,800');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 
 @font-face {
     font-family: 'grinchedregular';
@@ -92,7 +93,8 @@ h6 {
 .thecube h4 {
     font-family: 'grinchedregular';
     word-spacing: 2px;
-	font-weight:400;
+    font-weight:400;
+    
 }
 .small-text-center {
     text-align: center;
@@ -901,7 +903,7 @@ a.navbar-brand {
 .slider-text h1 {
     padding-top: 25%;
     font-size: 6em;
-	line-height:1.2em;
+    line-height:1.2em;
 }
 .slider-image:before {
     position: absolute;
@@ -934,7 +936,7 @@ a.navbar-brand {
     float: left;
 }
 .theme-heading i {
-    font-size: 20px;
+    font-size: 2em;
     line-height: 1.4em;
 }
 .theme-heading p {
@@ -970,7 +972,7 @@ a.navbar-brand {
 }
 .theme-heading h3{
 	text-transform:capitalize;
-	font-size: 30px;
+	font-size: 3em;
     margin-bottom: 0;
 }
 
@@ -1179,7 +1181,7 @@ span.icon.basic-link {
     background-color: #f5f5f5;
     line-height: 1.6em;
     color: #000;
-    font-size: 16px;
+    font-size: 2em;
     -webkit-transition: all 0.45s ease-in-out;
     -moz-transition: all 0.45s ease-in-out;
     -o-transition: all 0.45s ease-in-out;
