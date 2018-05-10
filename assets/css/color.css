@@ -3,8 +3,8 @@
 .theme-color,
 .slider-text h1,
 .service-icon,
-a:hover,
-a:focus,
+/* a:hover,
+a:focus, */
 .breadcrumb>.active,
 .itg-button-simple:hover ,
 .itg-button-simple,
@@ -85,3 +85,8 @@ a.ui-button:active,
 .dark-purpule {
     background-color: #6d5d9e;
 }
+
+a:focus, a:hover {
+    color: white;
+}
+
