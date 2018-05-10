@@ -951,7 +951,7 @@ a.navbar-brand {
 .theme-heading span.colorW:before {
     background-color: #fff;
 }
-.theme-heading span:after {
+/* .theme-heading span:after {
     content: "";
     width: 80px;
     height: 1px;
@@ -970,7 +970,7 @@ a.navbar-brand {
     position: absolute;
     left: 30px;
     margin-top: -1px;
-}
+} */
 .theme-heading h3{
 	text-transform:capitalize;
 	font-size: 3em;

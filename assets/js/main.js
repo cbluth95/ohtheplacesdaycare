@@ -103,7 +103,7 @@ function owlCarouselInit() {
 				margin:0,
 				nav:true,
 				navText:[prevNav,nextNav],
-				dots:false,
+				dots:true,
 				autoplay:true,
 				responsive:{
 					0:{
@@ -150,7 +150,8 @@ function owlCarouselInit() {
 				dots:true,
 				autoplay:true,
 				autoplayTimeout:3000,
-				stopOnHover : false,
+				stopOnHover : true,
+				pagination: true,
 				responsive:{
 					0:{
 						items:1
