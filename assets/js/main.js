@@ -150,7 +150,7 @@ function owlCarouselInit() {
 				dots:true,
 				autoplay:true,
 				autoplayTimeout:3000,
-				stopOnHover : true,
+				stopOnHover : false,
 				pagination: true,
 				responsive:{
 					0:{
