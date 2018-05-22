@@ -14,5 +14,8 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/code-hearted/ohtheplacesdaycare/issues"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1"
   }
 }

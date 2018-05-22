@@ -1,0 +1,383 @@
+<!DOCTYPEhtml>
+<html lang="en">
+<!--
+        **********************************************************************************************************
+        Copyright (c) 2017 It-Geesks
+        ********************************************************************************************************** 
+        -->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--[if IE]>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+        <![endif]-->
+    <meta name="keywords" content="HTML5 Template" />
+    <meta name="description" content="Baby House - Kids School, Kinder Garden & Play School Multipurpose HTML5 Template" />
+    <meta name="author" content="itgeeksin.com" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Oh the Places: Infants</title>
+    <!-- Bootstrap -->
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <!-- Master Css -->
+    <link href="main.css" rel="stylesheet">
+    <link rel="stylesheet" href="./fullcalendar/fullcalendar.css">
+    <link rel="stylesheet" href="./fullcalendar/fullcalendar.print.css" media="print">
+
+
+    <script type='text/javascript' src="./fullcalendar/lib/jquery.min.js"></script>
+    <!-- <script src="./assets/js/jquery-ui.min.js"></script> -->
+    <script type='text/javascript' src="./fullcalendar/lib/moment.min.js"></script>
+    <script type='text/javascript' src="./fullcalendar/fullcalendar.js"></script>
+    <script src="/fullcalendar/lib/superagent.js"></script>
+    <script type='text/javascript' src="./fullcalendar/gcal.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var calEl = document.getElementById('calendar');
+
+            var calendar = new FullCalendar.Calendar(calEl, {
+                header: {
+                    left: 'prev,next today',
+                    center: 'title',
+                    right: 'month,basicWeek,basicDay'
+                },
+                // defaultDate: '2018-04-12',
+                navLinks: true, // can click day/week names to navigate views
+                editable: true,
+                eventLimit: true,
+                googleCalendarApiKey: 'AIzaSyA3_1I4WI0k6abZCk5wayaiTBIjm6Oa6iM',
+                events: {
+                    googleCalendarId: 'de83qd7m6ev79g3gh192phvuls@group.calendar.google.com',
+                    className: 'gcal-event'
+                }
+            });
+
+            calendar.render();
+        });
+    </script>
+
+
+
+    <style>
+        #calendar {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+
+<body>
+    <!--//================preloader  start==============//-->
+    <div class="preloader">
+        <div class="thecube">
+            <div class="cube c1"></div>
+            <div class="cube c2"></div>
+            <div class="cube c4"></div>
+            <div class="cube c3"></div>
+            <h4>Loading</h4>
+        </div>
+    </div>
+    <!--//================preloader  end==============//-->
+    <!--//================Header start==============//-->
+    <header>
+        <div id="dynamicNav">
+
+        </div>
+    </header>
+    <!--//================Header end==============//-->
+    <div class="clear"></div>
+    <!--//================Breadcrumb starts==============//-->
+    <section>
+        <div class="bredcrumb-section padTB50 positionR">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="theme-heading text-center">
+                            <h3 class="text-center theme-color">Our Schedule</h3>
+                            <h4 class="text-center theme-color">-| We try to keep the schedule updated a month ahead of time |-</h4>
+                            <span class="colorW marB10">
+                                <i class="material-icons large">child_friendly</i>
+                            </span>
+                        </div>
+
+                        <!-- <div class="breadcrumb-box">
+                                <ul class="breadcrumb text-center colorW marB0">
+                                    <li>
+                                        <a href="index.html">Home</a>
+                                    </li>
+                                    <li class="active">Service</li>
+                                </ul>
+                            </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--//================Breadcrumb end==============//-->
+    <div class="clear"></div>
+    <div class="container">
+        <div id="calendar"></div>
+    </div>
+    <!--//================Service detail starts==============//-->
+
+    <!-- 
+    <div align="center" class="container">
+        <div class="col-sm-12 col-md-12 col-lg-12">
+            <iframe src="https://calendar.google.com/calendar/embed?src=de83qd7m6ev79g3gh192phvuls%40group.calendar.google.com&ctz=America%2FDenver"
+                style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+        </div>
+    </div> -->
+
+
+    <section class="padT80 padB50">
+        <div class="container">
+
+
+            <div class="col-md-9 col-sm-8 col-xs-12 programCont">
+                <h4 class="marB20 title">About our Infant Program (6 weeks - 12 months)</h4>
+                <p class="text-left marB30">Lorem Ipsum is simply dummy text of the rinting and typesetting industry. Lorem Ipsum has been the industry
+                    standard dummy text ever sincer they 1500s. Nullam id condimentum purus. In non ex at ligula fringilla
+                    lobortis. Ut et mauris auctor, aliquet nulla sed, aliquam mauris. Vestibulum sed malesuada dolor. Integer
+                    fringilla odio a dolor aliquet, eu euismod lectus porttitor. Proin et libero nec eros eleifend commodo
+                    Phasellus sodales volutpat diam, id sagittis purus egestas dapibus. Donec bibendum est quis mi commodo
+                    blandit.
+                </p>
+                <p class="text-left marB20">Maecenas pellentesque, massa vitae faucibus consectetur, ante magna gravida magna, ut venenatis massa augue
+                    et odio. Aliquam luctus viverra velit, non euismod ligula congue sed.Mauris nunc leo, sollicitudin a
+                    ligula ut, iaculis bibendum lorem. Duis gravida suscipit purus, at consequat diam sagittis sit amet.
+                    Mauris sed nisl vel urna egestas elementum eget quis ipsum.
+                </p>
+                <p class="text-left marB20">Nulla a enim et justo facilisis ornare. Sed ante sem, dignissim a vehicula et, rutrum volutpat turpis. Praesent
+                    id leo lacinia, malesuada tortor ut, lobortis leo. Cras eget sollicitudin lorem. Etiam commodo ultricies
+                    luctus. Integer porttitor ligula eget quam blandit finibus. Suspendisse potenti. Nulla blandit augue
+                    orci, eget tristique massa fermentum sed. Duis ac maximus nulla, et pharetra turpis. Maecenas odio tortor,
+                    egestas sit amet erat nec, maximus mattis ex.
+                </p>
+                <p class="text-left marB50">Pellentesque, massa vitae faucibus consectetur, ante magna gravida magna, ut venenatis massa augue et odio.
+                    Aliquam luctus viverra velit, non euismod ligula congue sed.Mauris nunc leo, sollicitudin a ligula ut,
+                    iaculis bibendum lorem. Duis gravida suscipit purus, at consequat diam sagittis sit amet. Mauris sed
+                    nisl vel urna egestas elementum eget quis ipsum.
+                </p>
+                <div class="comment-review marB30">
+                    <h4 class="marB30 center title">More Questions?</h4>
+                    <form id="contact-form" method="post" action="assets/script/mail-contact.php" role="form">
+
+                        <div class="messages"></div>
+
+                        <div class="controls">
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="form_name">Firstname *</label>
+                                        <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required"
+                                            data-error="Firstname is required." maxlength="10">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="form_lastname">Lastname *</label>
+                                        <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required"
+                                            data-error="Lastname is required." maxlength="10">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="form_email">Email *</label>
+                                        <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required"
+                                            data-error="Valid email is required." maxlength="30">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="form_phone">Phone</label>
+                                        <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone" maxlength="14">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label for="form_message">Message *</label>
+                                        <textarea id="form_message" name="message" class="form-control" placeholder="Message... *" rows="4" required="required" data-error="Please,leave us a message."
+                                            maxlength="80"></textarea>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <input type="submit" class="itg-button" value="Send message">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <p class="text-muted">
+                                        <strong>*</strong> These fields are required.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+            <!-- <div class="col-md-3 col-sm-4 col-xs-12 pull-left">
+                        <div class="row">
+                            <div class="sidebar padB30">
+                                <div class="col-xs-12">
+                                    <div class="search_bar marB30">
+                                        <input type="text" name="search" placeholder="Search..">
+                                        <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <h4 class="marB20 title">Recent Posts</h4>
+                                    <div class="row">
+                                        <div class="recent-posts marB20">
+                                            <div class="blog-recent-post">
+                                                <div class="col-md-4 col-sm-4 col-xs-4">
+                                                    <figure>
+                                                        <img src="assets/img/blog/side-1.jpg" alt="">
+                                                    </figure>
+                                                </div>
+                                                <div class="col-md-8 col-sm-8 col-xs-8 padL0 text-left">
+                                                    <h5><a href="#">Baby House</a></h5>
+                                                    <p class="mar0 text-left">Lorem Ipsum dummy text printing andtext printing.</p>
+                                                    <a href="#" class="theme-color"> Read More</a>
+                                                </div>
+                                            </div>
+                                            <div class="blog-recent-post">
+                                                <div class="col-md-4 col-sm-4 col-xs-4">
+                                                    <figure>
+                                                        <img src="assets/img/blog/side-2.jpg" alt="">
+                                                    </figure>
+                                                </div>
+                                                <div class="col-md-8 col-sm-8 col-xs-8 padL0 text-left">
+                                                    <h5><a href="#">Baby House</a></h5>
+                                                    <p class="mar0 text-left">Lorem Ipsum dummy text printing andtext printing.</p>
+                                                    <a href="#" class="theme-color"> Read More</a>
+                                                </div>
+                                            </div>
+                                            <div class="blog-recent-post">
+                                                <div class="col-md-4 col-sm-4 col-xs-4">
+                                                    <figure>
+                                                        <img src="assets/img/blog/side-3.jpg" alt="">
+                                                    </figure>
+                                                </div>
+                                                <div class="col-md-8 col-sm-8 col-xs-8 padL0 text-left">
+                                                    <h5><a href="#">Baby House</a></h5>
+                                                    <p class="mar0 text-left">Lorem Ipsum dummy text printing andtext printing.</p>
+                                                    <a href="#" class="theme-color"> Read More</a>
+                                                </div>
+                                            </div>
+                                            <div class="blog-recent-post">
+                                                <div class="col-md-4 col-sm-4 col-xs-4">
+                                                    <figure>
+                                                        <img src="assets/img/blog/side-4.jpg" alt="">
+                                                    </figure>
+                                                </div>
+                                                <div class="col-md-8 col-sm-8 col-xs-8 padL0 text-left">
+                                                    <h5><a href="#">Baby House</a></h5>
+                                                    <p class="mar0 text-left">Lorem Ipsum dummy text printing andtext printing.</p>
+                                                    <a href="#" class="theme-color"> Read More</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12">
+                                    <h4 class="marB10 title">Mailing List</h4>
+                                    <p class="marB20 text-left">Sign up for our mailing list to get latest updates and offers.</p>
+                                    <div class="search_bar marB30">
+                                        <input type="text" name="search" placeholder="Search..">
+                                        <button type="submit"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12">
+                                    <h4 class="marB10 title">Social Widgets</h4>
+                                    <p class="marB30">
+                                        <a href="#" class="square-box"><span><i class="fa fa-twitter" aria-hidden="true"></i></span></a>
+                                        <a href="#" class="square-box"><span><i class="fa fa-facebook" aria-hidden="true"></i></span></a>
+                                        <a href="#" class="square-box"><span><i class="fa fa-dribbble" aria-hidden="true"></i></span></a>
+                                        <a href="#" class="square-box"><span><i class="fa fa-instagram" aria-hidden="true"></i></span></a>
+                                        <a href="#" class="square-box"><span><i class="fa fa-pinterest" aria-hidden="true"></i></span></a>
+                                    </p>
+                                </div>
+                                <div class="col-xs-12">
+                                    <h4 class="marB10 title">Categories</h4>
+                                    <ul class="meta-link marB30">
+                                        <li><a href="#"><i class="fa fa-angle-double-right marR10" aria-hidden="true"></i>Blog</a></li>
+                                        <li><a href="#"><i class="fa fa-angle-double-right marR10" aria-hidden="true"></i>Gallery</a></li>
+                                        <li><a href="#"><i class="fa fa-angle-double-right marR10" aria-hidden="true"></i>Service</a></li>
+                                        <li><a href="#"><i class="fa fa-angle-double-right marR10" aria-hidden="true"></i>Site Map</a></li>
+                                        <li><a href="#"><i class="fa fa-angle-double-right marR10" aria-hidden="true"></i>About us</a></li>
+                                        <li><a href="#"><i class="fa fa-angle-double-right marR10" aria-hidden="true"></i>Contact us</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-xs-12">
+                                    <div class="blog-meta-tags marB30">
+                                        <h4 class="marB10 title">Popular Tags </h4>
+                                        <div class="tag-list">
+                                            <a href="#">Infants</a>
+                                            <a href="#">Gallery</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+        </div>
+        </div>
+    </section>
+    <div class="clear"></div>
+    <div id="dynFooter"></div>
+    <div id="copyrightBottom"></div>
+    <!--//================Footer end==============//-->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/plugin/megamenu/js/hover-dropdown-menu.js"></script>
+    <script src="assets/plugin/megamenu/js/jquery.hover-dropdown-menu-addon.js"></script>
+    <script src="assets/plugin/owl-carousel/js/owl.carousel.min.js"></script>
+    <script src="assets/js/main.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $("#dynamicNav").load("dynamic-containers/dynamicMainNav.html");
+            $("#copyrightBottom").load("dynamic-containers/dynamicCopyright.html");
+            $("#dynFooter").load("dynamic-containers/dynamicFooter.html");
+        });
+    </script>
+    <!-- <script type='text/javascript'>
+        $(document).ready(function () {
+            $('#calendar').fullCalendar({
+                header: {
+                    left: 'prev,next today',
+                    center: 'title',
+                    right: 'month,basicWeek,basicDay'
+                },
+                navLinks: true, // can click day/week names to navigate views 
+                editable: true,
+                eventLimit: true,
+                googleCalendarApiKey: 'AIzaSyA3_1I4WI0k6abZCk5wayaiTBIjm6Oa6iM',
+                events: {
+                    googleCalendarId: 'de83qd7m6ev79g3gh192phvuls@group.calendar.google.com'
+                }
+            });
+        });
+    </script> -->
+
+    <script src="assets/js/validator.js"></script>
+    <script src="assets/js/mail-contact.js"></script>
+</body>
+
+
+
+</html>

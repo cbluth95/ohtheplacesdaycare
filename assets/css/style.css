@@ -2177,3 +2177,62 @@ a.ui-button:active,
 .btn-lg {
   border-radius: 0px;
 }
+
+iframe {
+  width: 100%;
+  padding: 20px;
+  height: 800px;
+  background-color: #00c0c4;
+}
+
+/* Style Contact form */
+
+.comment-review {
+  text-align: center;
+}
+
+.form-control {
+  text-align: center;
+}
+
+/* Style FullCalendar */
+
+.fc {
+  margin-top: 40px !important;
+}
+
+.fc-content {
+  text-align: center;
+  /* border-color: #0dc1c5 !important; */
+}
+
+.fc-button {
+  font-weight: bold;
+}
+
+.fc-state-default {
+  background-image: linear-gradient(to bottom, #0ffff3, #03a4a8);
+}
+
+.fc-state-active {
+  color: #000000 !important;
+  background-image: linear-gradient(to bottom, #01edf5, #009ec2e0);
+}
+
+.fc-state-down {}
+
+.fc-state-hover {
+  background-color: rgb(0, 225, 255);
+}
+
+.fc-unthemed td.fc-today {
+  background-color: #0bd99a5e !important;
+}
+
+.fc-row .fc-bg {
+  background-color: #0dc1c512;
+}
+
+.fc-unthemed td {
+  border-color: #914fcd52;
+}
