@@ -2236,3 +2236,23 @@ iframe {
 .fc-unthemed td {
   border-color: #914fcd52;
 }
+
+/* Google Reviews */
+
+.reviewTitle {
+  text-align: center;
+  font-size: 2em;
+  font-family: "grinchedregular";
+  background-color: #0dc1c5;
+  /* change to background image? */
+}
+
+.reviewBtn {
+  text-align: center;
+  font-family: "grinchedregular";
+  font-size: 1.5em;
+}
+
+.newsTitle {
+  text-align: center;
+}
