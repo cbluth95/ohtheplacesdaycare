@@ -49,7 +49,7 @@ try
     
     if(count($_POST) == 0) throw new \Exception('Form is empty');
     
-    $emailTextHtml = "<h1>You have a new message from your contact form</h1><hr>";
+    $emailTextHtml = "<h1>You have a new message from OTPYWG contact form</h1><hr>";
     $emailTextHtml .= "<table>";
     
     foreach ($_POST as $key => $value) {
@@ -59,7 +59,7 @@ try
         }
     }
     $emailTextHtml .= "</table><hr>";
-    $emailTextHtml .= "<p>Have a nice day,<br>Best,<br>The Movies</p>";
+    $emailTextHtml .= "<p>Have a nice day,<br>Best,<br>Oh, the Places You Will Go</p>";
     
     $mail = new PHPMailer;
     

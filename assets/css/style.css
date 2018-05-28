@@ -2197,6 +2197,18 @@ iframe {
 
 /* Style FullCalendar */
 
+.fc-basic-view .fc-body .fc-row {
+  min-height: 3em !important;
+}
+
+.fc-row.fc-rigid .fc-content-skeleton {
+  position: relative !important;
+}
+
+.fc-scroller.fc-day-grid-container {
+  min-height: 275px !important;
+}
+
 .fc {
   margin-top: 40px !important;
 }
