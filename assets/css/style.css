@@ -2197,6 +2197,11 @@ iframe {
 
 /* Style FullCalendar */
 
+.fc-day-grid-event .fc-content {
+  /* force events to be one-line tall */
+  white-space: normal !important;
+}
+
 .fc-basic-view .fc-body .fc-row {
   min-height: 3em !important;
 }
@@ -2230,8 +2235,6 @@ iframe {
   color: #000000 !important;
   background-image: linear-gradient(to bottom, #01edf5, #009ec2e0);
 }
-
-.fc-state-down {}
 
 .fc-state-hover {
   background-color: rgb(0, 225, 255);

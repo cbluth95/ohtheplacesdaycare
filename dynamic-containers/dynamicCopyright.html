@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 col-sm-12 col-xs-12 text-center">
-                <p>Copyright © 2018 All Rights Reserved
+                <p style="display: inline;">Copyright © <p id="curYear">2018</p> All Rights Reserved
                     <a target="_" href="http://www.wyopc.com/">
                         <span class="theme-color">WYOPC LLC</span>
                     </a>
@@ -11,3 +11,18 @@
         </div>
     </div>
 </div>
+
+<style>
+    #curYear{
+        display: inline;
+    }
+</style>
+
+<script>
+    window.onload = getCurYear();
+    function getCurYear(){
+        let date = new Date();
+        let year = date.getFullYear();
+        document.getElementById('curYear').innerHTML = year;
+    }
+</script>
